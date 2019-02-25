@@ -19,8 +19,8 @@ services:
       - redis
     environment:
       - YOUR_VAR=testvar
-    volumes:
-      - ./src/:/usr/src/app/
+#    volumes:
+#      - ./src/:/usr/src/app/
 
 volumes:
   redis:
